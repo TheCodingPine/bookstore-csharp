@@ -1,9 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-string titolo;
-string author;
-long isbn;
-uint pageNumber;
+
 float bookWeight;
 double bookHeight;
 double bookWidth;
@@ -15,3 +12,10 @@ bool copertinaFlessibile;
 
 Console.Write("Titolo Libro: ");
 string titolo = Console.ReadLine();
+Console.Write("Autore: ");
+string author = Console.ReadLine();
+Console.Write("Numero di pagine: ");
+uint pageNumber = uint.Parse(Console.ReadLine()); //posso parsare inline come JS
+Console.Write("L'ISBN è: ");
+long isbn = long.Parse(Console.ReadLine());
+
