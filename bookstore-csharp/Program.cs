@@ -1,6 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-//-Titolo | stringa
+﻿//-Titolo | stringa
 //- Autore | stringa
 //- ISBN | numerico intero
 //- Numero pagine | numerico intero
@@ -35,7 +33,7 @@ Console.Write("cm x " + bookWidth);
 Console.WriteLine("cm x " + bookDepth + "cm");
 Console.WriteLine("Valutazione: " + bookScore);
 Console.WriteLine("Recensioni: " + bookReviewNumber);
-Console.WriteLine("Disponibilità Kindel: " + versioneKindle);
+Console.WriteLine("Disponibilità Kindle: " + versioneKindle);
 Console.WriteLine("Copertina Flessibile: " + copertinaFlessibile);
 
 
