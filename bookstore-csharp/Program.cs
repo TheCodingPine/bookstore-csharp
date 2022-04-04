@@ -11,4 +11,16 @@
 //- se è disponibile in versione Kindle | boolean
 //- se la copertina flessibile è disponibile | boolean
 
+string titolo;
+string author;
+long isbn;
+uint pageNumber; //solo positive
+float bookWeight;
+float bookHeight;
+float bookWidth;
+float bookDepth;
+float bookScore;
+long bookReviewNumber;
+bool versioneKindle;
+bool copertinaFlessibile;
 
